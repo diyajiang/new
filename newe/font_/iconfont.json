@@ -1,0 +1,37 @@
+{
+  "id": "3549591",
+  "name": "fengnian",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "18170970",
+      "name": "圆形布局",
+      "font_class": "circler-layout-full",
+      "unicode": "e9fb",
+      "unicode_decimal": 59899
+    },
+    {
+      "icon_id": "20787675",
+      "name": "实力",
+      "font_class": "shili",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "22773569",
+      "name": "管理专业化 ",
+      "font_class": "guanlizhuanyehua",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "12883995",
+      "name": "教育团队",
+      "font_class": "jiaoyutuandui",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    }
+  ]
+}

@@ -1,0 +1,828 @@
+@import "reset.css";
+@import "common.css";
+
+body{
+    width: 100%;
+    min-width: 1500px;
+}
+/* 头部 */
+.header .container{
+    width: auto;
+    height: 130px;
+}
+.header .container .shangbu{
+    background-color:  rgb(80, 134, 46);
+    width: auto;
+    height: 40px;
+}
+
+.header .container .shangbu .huanying a span.guanwang{
+    color: aliceblue;
+    display:block;
+    margin-top: 10px;
+    margin-left:70px;
+}
+.header .container .shangbu .dianhua a span.rexian{
+    color: aliceblue;
+    display:block;
+    margin-top: 10px;
+    margin-right:70px;
+}
+
+.header .container .xiabu {
+    width:auto;
+    height:90px;
+    background-color: #00000000;
+    box-sizing: border-box;
+}
+.header .container .xiabu span{
+    display: block;
+}
+
+.header .container .xiabu .gongsibiao img{
+    width:50px;
+    height:50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.header .container .xiabu .mingzi{
+    margin-left: 100px;
+    margin-top:-40px;
+}
+
+.header .container .xiabu .mingziying{
+    margin-left: 100px;
+    margin-top:1px;
+    font-size:3px;
+}
+
+.header .container .menu{
+    width: 270px;
+    height: 20px;
+}
+.header .container .menu a{
+    float:left;
+}
+
+.header .container .menu span{
+    font-size: larger;
+    display: block;
+}
+
+.header .container .menu .menu-firstpage{
+    width: 80px;
+    height: 20px;
+    float:left;
+    margin-left: -800px;
+    margin-top:-50px;
+}
+
+.header .container .menu .menu-us{
+    width: 80px;
+    height: 20px;
+    float:left;
+    margin-left: -690px;
+    margin-top:-50px;
+}
+.header .container .menu .menu-center{
+    width: 80px;
+    height: 20px;
+    float:left;
+    margin-left: -580px;
+    margin-top:-50px;
+    
+}
+.header .container .menu .menu-case{
+    width: 80px;
+    height: 20px;
+    float:left;
+    margin-left: -470px;
+    margin-top:-50px;
+}
+.header .container .menu .menu-purchase{
+    width: 80px;
+    height: 20px;
+    float:left;
+    margin-left: -360px;
+    margin-top:-50px;
+}
+.header .container .menu .menu-contact{
+    width: 80px;
+    height:20px;
+    float:left;
+    margin-left: -250px;
+    margin-top:-50px;
+}
+.header .container .menu a img{
+    width:85px;
+    height:45px;
+    margin-top:-50px;
+}
+.header .container .menu a:hover span{
+    color:#00000031;
+}
+/* 头部结束 */
+/* 轮播图片 */
+.firm{
+    width:1020px;
+    height: 355px;
+    margin: auto;
+    padding-top: 75px;
+    box-sizing: border-box;
+}
+
+.firm .name{
+    width:980px;
+    height: 148px;
+    margin: auto;
+}
+.firm .name h1{
+    font-size: 65px;
+    font-weight:bolder;
+    color: #f7f5f5e3;
+    text-align: center;
+}
+
+.firm .name h2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight:bolder;
+    color: #f7f5f5e3;
+    text-align: center;
+}
+.firm .buy{
+    box-sizing: border-box;
+    width: 150px;
+    height: 55px;
+    background-color:  rgb(80, 134, 46);
+    margin-top: 13px;
+    margin-left: 435px;
+    text-align: center;
+    padding: 13px;
+    border-color: black;
+}
+.firm .buy{
+    border-radius:13px;
+}
+.firm .buy:hover{
+    transform: translate(0,16px);
+}
+/* 轮播图片结束 */
+/* 服务模式 */
+.system{
+    width: auto;
+    height:540px;
+    background-color:  white;
+   
+}
+/* 服务模式标题部分 */
+.system .titleone{
+    width: 420px;
+    height: 50px;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+.system .diwen{
+    margin-left: 655px;
+    margin-top: -20px;
+}
+.system .futitleone{
+    margin-left: 581px;
+    margin-top: 2px;
+}
+.system .tubiao{
+    /* 待删 */
+    height:400px;
+    width: 1200px;
+    margin-top: 40px;
+    margin-left:150px;
+
+}
+
+.system .tubiao .fonts{
+    height:150px;
+    width: 1000px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.system .futitleone .fo{
+   font-size: 14px;
+   color: rgb(137, 138, 136);
+}
+.system .titleone .to{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.system .diwen img{
+    width: 200px;
+    height: 22px;
+}
+/* 图标格式设置 */
+.system .tubiao .sm{
+    margin-left: 20px;
+}
+.system .tubiao .sm a{
+    display: inline-block;
+    font-size: 40px;
+    background-color:  rgb(117, 159, 89);
+    border-radius: 140px;
+    width: 155px;
+    height: 155px;
+    line-height: 165px;
+    text-align: center;
+    color: white;
+    margin:0 65px ;
+    transition:  .4s linear;
+    position:relative;
+}
+.system .tubiao .sm a .iconfontyyy{
+    font-size:60px;
+}
+.system .tubiao .sm a::before,.system .tubiao .sm a::after{
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    transition: .4s linear;
+}
+.system .tubiao .sm a:hover{
+    transform:scale(.6) ;
+}
+.system .tubiao .sm a:hover::before{
+    border-left: 12px dotted;
+    border-right: 12px dotted;
+    transform: skewX(20deg);
+    background-color: transparent;
+    color:    rgb(117, 159, 89);
+}
+.system .tubiao .sm a:hover::after{
+    border-top: 12px dotted;
+    border-bottom: 12px dotted;
+    transform: skewY(-20deg);
+    background-color:transparent;
+    color:   rgb(117, 159, 89);
+}
+/* 四个文字部分 */
+.system .tubiao .wenzi{
+    height: 95px;
+    margin-top: 30px;
+   
+}
+.system .tubiao .wenzi .wo{
+    margin-left: 14px;
+   
+    height: 95px;
+    width:290px;
+    display: inline-block;
+}
+.system .tubiao .wenzi .wt{
+    
+    height: 95px;
+    width:290px;
+    display: inline-block;
+}
+.system .tubiao .wenzi .wtr{
+   
+    height: 95px;
+    width:290px;
+    display: inline-block;
+}
+.system .tubiao .wenzi .wf{
+  
+    height: 95px;
+    width:290px;
+    display: inline-block;
+}
+/* 页码部分 */
+.system .tubiao .yema{
+    height: 50px;
+    margin-top: 63px;
+}
+.system .tubiao .yema .yo{
+    margin-left:85px;
+}
+.system .tubiao .yema .yt{
+    margin-left: 378px;
+    margin-top: -52px;
+    width: 100px;
+}
+.system .tubiao .yema .ytr{
+    margin-left: 684px;
+    margin-top: -52px;
+   width: 100px;
+}
+.system .tubiao .yema .yf{
+    margin-left: 974px;
+    margin-top: -51px;
+    width: 100px;
+}
+.system .tubiao .yema .yo img,.system .tubiao .yema .yt img{
+    height:50px;
+    width: 140px;
+}
+.system .tubiao .yema .ytr img,.system .tubiao .yema .yf img{
+    height:50px;
+    width: 120px;
+}
+/* 产品与服务 */
+.service{
+    width: auto;
+    height: 790px;
+    background-color:  rgb(245, 245, 245);
+}
+.service .titleone{
+    width: 420px;
+    height: 50px;
+    margin-left: 690px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.service .diwen{
+    margin-left: 660px;
+    margin-top: 30px;
+}
+.service .futitleone{
+    margin-left: 570px;
+    margin-top: 2px;
+
+}
+.service .futitleone .fo{
+    font-size: 14px;
+    color: rgb(137, 138, 136);
+ }
+ .service .titleone .to{
+     font-size: 26px;
+     font-weight: 700;
+ }
+ 
+ .service .diwen img{
+     width: 200px;
+     height: 22px;
+ }
+ /* 悬浮图片 */
+ .service .container{
+    width:1200px;
+    height: 400px;
+    background-color: rgb(235, 167, 167);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left:150px;
+ }
+ .service .container .box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background:rgb(229, 226, 196);
+    box-shadow: 0 30px 30px rgba(0,0,0,.5);
+ }
+ .service .container .box .imgbx{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+ }
+ .service .container .box .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+ }
+ .service .container .box:hover .imgbx img{
+    opacity: 0;
+ }
+ .service .container .box .content{
+    position: absolute;
+    bottom: 20px;
+    left:10%;
+    width:80%;
+    height: 60px;
+    background: rgb(117, 159, 89);
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+ }
+ .service .container .box:hover .content{
+    width:100%;
+    height: 100%;
+    bottom: 0;
+    left:0;
+ }
+ .service .container .box .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+ }
+ .service .container .box .content h4{
+    color: white;
+    font-weight: bolder;
+ }
+ .service .container .box .content p{
+    margin: 10px 0 0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+    text-align: justify;
+    color: white;
+ }
+ .service .container .box:hover .content p{
+    opacity: 1;
+    transition-delay: 0.5s;
+    
+ }
+ /* 图标2 */
+ .service .tubiaot{
+    /* 待删 */
+    height:100px;
+    width:1150px;
+    margin-top: 40px;
+    margin-left:260px;
+}
+
+.service .tubiaot .sm a{
+    display: inline-block;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    margin:0 210px ;
+    margin-left: 92px;
+    margin-top: 20px;
+    transition:  .4s linear;
+    position:relative;
+}
+.service .tubiaot .sm a .po{
+    width: 50px;
+    height: 50px;
+}
+.service .tubiaot .sm a .pt{
+    width: 63px;
+    height: 63px;
+}
+.service .tubiaot .sm a .ptr{
+    width: 66px;
+    height: 66px;
+}
+.service  .wenzi{
+    /* 待删 */
+    height:50px;
+    width:1150px;
+    margin-top: 9px;
+    margin-left:0px;
+}
+.service  .wenzi .wo{
+    width: 285px;
+    height: 48px;
+    margin-left:-18px;
+}
+.service  .wenzi .wt{
+    width: 285px;
+    height: 48px;
+    margin-left: 349px;
+    margin-top: -48px;
+}
+.service  .wenzi .wtr{
+    width: 285px;
+    height: 48px;
+    margin-left:718px;
+    margin-top: -48px;
+}
+.service  .wenzi  h1{
+    margin-bottom:9px;
+}
+/* 产品与服务结束 */
+/* 流程图 */
+.liucheng{
+    width: auto;
+    height:620px;
+    background-color: white;
+}
+.liucheng .titleone{
+    width: 420px;
+    height: 50px;
+    margin-left: 653px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.liucheng .diwen{
+    margin-left: 660px;
+    margin-top: 30px;
+}
+.liucheng .futitleone{
+    margin-left: 570px;
+    margin-top: 2px;
+
+}
+.liucheng .futitleone .fo{
+    font-size: 14px;
+    color: rgb(137, 138, 136);
+ }
+ .liucheng .titleone .to{
+     font-size: 26px;
+     font-weight: 700;
+ }
+ 
+ .liucheng .diwen img{
+     width: 200px;
+     height: 22px;
+ }
+ .liucheng .tu{
+   width: 1000px;
+   height: 355px;
+   margin-top: 27px;
+   margin-left: 265px;
+ }
+ .liucheng .tu img{
+    width: 100%;
+    height: 100%;
+  }
+  .liucheng  .buy{
+    width: 170px;
+    height: 50px;
+    border-radius: 11px;
+    background-color:  rgb(80, 134, 46);
+    margin-top: 35px;
+    margin-left: 674px;
+    box-sizing: border-box;
+    padding-top: 14px;
+  }
+  .liucheng .buy:hover{
+    transform: translate(0,-16px);
+}
+  
+/* 流程图结束 */
+/* 为什么选择我们 */
+.select{
+    width: auto;
+    height: 415px;
+    background-color:  rgb(245, 245, 245);
+}
+.select .titleone{
+    width: 420px;
+    height: 50px;
+    margin-left: 675px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.select .diwen{
+    margin-left: 663px;
+    margin-top: 30px;
+}
+.select .futitleone{
+    margin-left: 642px;
+    margin-top: 2px;
+
+}
+.select .futitleone .fo{
+    font-size: 14px;
+    color: white;
+ }
+ .select .titleone .to{
+     font-size: 26px;
+     font-weight: 700;
+     color: white;
+ }
+ 
+ .select .diwen img{
+     width: 200px;
+     height: 22px;
+ }
+ /* 盒子 */
+ .select .container{
+    width:1200px;
+    height: 208px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left:165px;
+ }
+ .select .container .box{
+    position: relative;
+    width: 200px;
+    height:202px;
+    border:2.5px solid white;
+ }
+ .select .container .box h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 11px;
+ }
+ .select .container .box h2{
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 19px;
+ }
+ .select .container .box p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom:5px;
+ }
+/* 为什么选择我们结束*/
+/* 新闻资讯 */
+.news{
+    width: auto;
+    height:430px;
+}
+.news .titleone{
+    width: 420px;
+    height: 50px;
+    margin-left: 703px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.news .diwen{
+    margin-left: 660px;
+    margin-top: 30px;
+}
+.news .futitleone{
+    margin-left: 584px;
+    margin-top: 2px;
+
+}
+.news .futitleone .fo{
+    font-size: 14px;
+    color: rgb(137, 138, 136);
+ }
+.news .titleone .to{
+     font-size: 26px;
+     font-weight: 700;
+ }
+ 
+.news .diwen img{
+     width: 200px;
+     height: 22px;
+ }
+ .news .container{
+    width:1000px;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left:257px;
+ }
+ .news .container .box{
+    position: relative;
+    width: 220px;
+    height: 150px;
+    border:1px solid rgb(9, 9, 9);
+ }
+ .news .container .box .content{
+    width:265px;
+    height: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-left: -22px;
+ }
+ .news .container .box h3{
+    color: black;
+    font-size: 17px;
+    overflow: visible;
+    padding-bottom: 3px;
+ }
+ .news .container .box h4{
+    color: rgb(137, 138, 136);
+    font-size: 10px;
+    padding-bottom: 2px;
+ }
+ .news .container .box p{
+    color: black;
+    font-size: 15px;
+ }
+ .news .container .box .imgbx{
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+ }
+ .news .container .box .imgbx img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1s ;
+    overflow: hidden;
+ }
+ .news .container .box .imgbx:hover img{
+    transform: scale(0.94);
+   
+ }
+ 
+/* 新闻资讯结束 */
+/* 合作伙伴 */
+.cooper{
+    width: auto;
+    height:450px;
+    background-color: white;
+}
+.cooper .titleone{
+    width: 420px;
+    height: 50px;
+    margin-left: 703px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.cooper .diwen{
+    margin-left: 660px;
+    margin-top: 30px;
+}
+.cooper .futitleone{
+    margin-left:640px;
+    margin-top: 2px;
+
+}
+.cooper .futitleone .fo{
+    font-size: 14px;
+    color: rgb(137, 138, 136);
+ }
+.cooper .titleone .to{
+     font-size: 26px;
+     font-weight: 700;
+ }
+ 
+.cooper .diwen img{
+     width: 200px;
+     height: 22px;
+ }
+ .cooper  .imgo{
+    margin-top: 50px;
+    width: 1460px;
+    height: 230px;
+ }
+ .cooper  .imgo img{
+    width: 100%;
+    height: 100%;
+ }
+ 
+/* 合作伙伴结束 */
+/* 底部 */
+.bo{
+    width: auto;
+    height: 215px;
+    background-color: rgba(0, 0, 0, 0.815);
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+.bo .tit{
+    width: 700px;
+    height: 40px;
+    margin-left: 190px;
+}
+.bo .tit a{
+    color: white;
+    padding-right: 12px;
+}
+.bo .add{
+    width: 500px;
+    height: 40px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+.bo .add p{
+    color:rgb(164, 165, 162);
+    padding-bottom: 19px;
+    font-size: 15px;
+}
+.bo .co{
+    width: 110px;
+    height: 110px;
+    margin-top: -90px;
+    margin-left: 1200px;
+}
+.bo .co img{
+    height: 100%;
+}
+.bo .t{
+    width: 80px;
+    height: 80px;
+    margin-top: -90px;
+    margin-left: 1080px;
+}
+
+.bo .t p{
+    color:white;
+    padding-bottom: 19px;
+}
+/* 底部结束 */

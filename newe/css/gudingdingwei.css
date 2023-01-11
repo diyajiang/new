@@ -1,0 +1,60 @@
+@import "reset.css";
+@import "common.css";
+
+.size{
+    width: 50px;
+    height: 56px;
+}
+.sizea{
+    width: 150px;
+    height: 56px;
+}
+.sizeb{
+    width: 110px;
+    height: 110px;
+}
+.adver{
+    position: fixed;
+    right:0px;
+    top: 310px;
+    cursor: pointer;
+}
+
+.advert{
+    position: fixed;
+    right:0px;
+    top: 371px;
+    cursor: pointer;
+}
+
+.adverti{
+    position: fixed;
+    right:0px;
+    top: 432px;
+    cursor: pointer;
+}
+.advertise{
+    position: fixed;
+    right:0px;
+    top: 493px;
+    cursor: pointer;
+}
+.advera{
+    position: fixed;
+    right:52px;
+    top: 310px;
+}
+
+.advertia{
+    position: fixed;
+    right:52px;
+    top: 432px;
+}
+.adverta{
+    position: fixed;
+    right:52px;
+    top: 371px;
+}
+.adver:hover .advera,.advert:hover .adverta,.adverti:hover .advertia{
+    display: block;
+}
